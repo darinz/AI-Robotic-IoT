@@ -1,0 +1,13 @@
+# IMPLEMENTATION DETAILS: CV - ADDING COMPUTER VISION CAPABILITIES
+
+## IMPLEMENTATION DETAILS – COMPUTER VISION
+
+The computer vision component of KITT was implemented using a combination of open-source tools and pre-trained models optimized for real-time performance on edge devices. At the hardware level, the system used a 2-axis gimbal-mounted camera module connected to the Raspberry Pi 4 via the CSI interface. Although the camera offered flexibility in viewing angles, the physical connection via ribbon cable was unstable and frequently caused intermittent signal loss.
+
+On the software side, the core library used for image processing and video stream handling was OpenCV (cv2), which enabled frame capture, color space conversion, edge detection, and contour analysis. For object detection, we initially used MobileNet-SSD, which provided a good balance between accuracy and speed. Later, we integrated YOLOv5n, the nano variant of YOLOv5 from Ultralytics, via the PyTorch Hub interface to improve object classification, particularly for detecting traffic signs and common obstacles.
+
+To enable the system to read and interpret printed or embedded text, we integrated OCR. Frames from the camera were pre-processed with grayscale conversion, adaptive thresholding, and bounding box extraction to improve text recognition accuracy. These extracted words were converted into structured JSON payloads and sent to the NLP module to be described or acted upon. For example, recognized text from a stop sign would be wrapped in a JSON object and passed to the LLM via a formatted prompt.
+
+The data flow between vision modules and language processing was managed using shared memory structures and REST-based API calls. The Raspberry Pi would capture frames, preprocess them, send them via POST request to the detection server, and receive a structured response. These results were integrated into LLM prompts using a custom prompt formatting engine.
+
+Our implementation was informed by several external references and research projects. YOLOv5 [Rahima Khanam, Muhammad Hussain, 2024, https://arxiv.org/abs/2407.20892] and Tesseract OCR [Smith, 2007, [Paper](https://static.googleusercontent.com/media/research.google.com/en/pubs/archive/33418.pdf)] were key contributors. Additional guidance was taken from OpenCV documentation and GitHub repositories related to real-time object detection on Raspberry Pi. The FastAPI communication layer was designed based on microservice principles inspired by edge computing frameworks. These tools together enabled a modular and scalable vision system that interfaced seamlessly with the rest of KITT’s cognitive architecture.
