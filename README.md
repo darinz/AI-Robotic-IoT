@@ -41,8 +41,9 @@ This project is a glimpse into the **future of intelligent transportation and sm
 
 Explore more in-depth documentation in the following sections:
 
-- [Motivation](docs/Motivation.md)  
-- [Technical Approach](docs/Technical_Approach.md)  
+- [Motivation](docs/Motivation.md)
+- **Technical Approach** 
+    - [Technical Approach](docs/Technical_Approach_IoT.md)  
 - [Implementation Details](docs/Implementation_Details.md)  
 - [Results](docs/Results.md)  
 - [Overall Project Discussion](docs/Overall_Project_Discussion.md)
