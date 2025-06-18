@@ -49,6 +49,7 @@ Explore more in-depth documentation in the following sections:
     - [CV](docs/Technical_Approach_CV.md)
 - **Implementation Details** 
     - [IoT](docs/Implementation_Details_IoT.md)
+    - [RL](docs/Implementation_Details_RL.md)
 - [Results](docs/Results.md)  
 - [Overall Project Discussion](docs/Overall_Project_Discussion.md)
 
