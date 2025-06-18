@@ -1,0 +1,17 @@
+# TECHNICAL APPROACH: CV - ADDING COMPUTER VISION CAPABILITIES
+
+## TECHNICAL APPROACH (EXPANDED)
+
+To extend KITT’s capabilities beyond conversational interaction, we integrated computer vision as a core component of the system, enabling the car to not only hear and speak, but also to see and understand its environment. This visual layer formed the foundation for two major functionalities: (1) enabling natural language descriptions of what KITT observes, and (2) laying the groundwork for reinforcement learning (RL)-based autonomous navigation powered by visual inputs.
+
+The system architecture was expanded to include a 2-axis gimbal-mounted camera module, giving KITT the ability to dynamically scan its surroundings. The camera was connected to the Raspberry Pi 4 and served as the primary visual sensor. Using OpenCV for real-time frame processing, we implemented basic image enhancement and edge detection techniques. For object recognition, we integrated lightweight, pre-trained neural networks to classify objects like traffic signs, pedestrians, and other vehicles. For text-based recognition—such as reading signs or identifying printed text—we employed OCR to extract characters from the visual field.
+
+Once visual elements were detected, a vision-to-NLP bridge transformed these results into structured prompt templates. For example, a visual input showing a red octagonal sign with the word “STOP” would trigger a prompt like: “You are KITT. The camera sees a red sign that says STOP. What should you say to the driver?” This prompt was then sent to the LLM. The response could be spoken aloud using the TTS engine and optionally paired with physical gestures such as braking or flashing lights.
+
+A key innovation was the multimodal data pipeline, where visual, auditory, and textual data were processed in parallel. Speech recognition and camera analysis ran asynchronously, and results were aggregated into a unified prompt pipeline before being passed to the LLM. This architecture allowed for seamless transitions between commands like “Describe what you see?” and actions such as interpreting stop signs or lane lines.
+
+Despite this progress, hardware limitations presented real challenges. The ribbon cable connecting the camera module to the Raspberry Pi was mechanically fragile, often becoming loose due to vibration from the gimbal or minor movement of the chassis. This led to intermittent failures where the camera feed would crash mid-operation.
+
+Looking forward, the computer vision module will also support reinforcement learning (RL) by providing real-time state observations to the training loop. We plan to feed visual features (e.g., road edges, lane markings, traffic signs) into a Q-learning or DQN-based agent, enabling KITT to learn self-driving behaviors such as lane following, obstacle avoidance, and stop-sign compliance. This approach shifts the car from a scripted behavior engine to a learning-based adaptive system, leveraging visual data for policy optimization over time.
+
+Overall, our technical approach merges audio, visual, and robotic intelligence into a cohesive pipeline. The integration of computer vision not only enriches KITT’s ability to describe and interact with the physical world through natural language but also paves the way for a fully autonomous driving experience rooted in reinforcement learning.
