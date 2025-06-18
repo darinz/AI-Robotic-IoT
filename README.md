@@ -51,6 +51,7 @@ Explore more in-depth documentation in the following sections:
     - [IoT](docs/Implementation_Details_IoT.md)
     - [RL](docs/Implementation_Details_RL.md)
     - [NLP](docs/Implementation_Details_NLP.md)
+    - [CV](docs/Implementation_Details_CV.md)
 - [Results](docs/Results.md)  
 - [Overall Project Discussion](docs/Overall_Project_Discussion.md)
 
