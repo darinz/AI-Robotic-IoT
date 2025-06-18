@@ -46,6 +46,7 @@ Explore more in-depth documentation in the following sections:
     - [IoT](docs/Technical_Approach_IoT.md)
     - [RL](docs/Technical_Approach_RL.md)
     - [NLP](docs/Technical_Approach_NLP.md)
+    - [CV](docs/Technical_Approach_CV.md)
 - [Implementation Details](docs/Implementation_Details.md)  
 - [Results](docs/Results.md)  
 - [Overall Project Discussion](docs/Overall_Project_Discussion.md)
