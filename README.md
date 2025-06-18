@@ -41,19 +41,19 @@ This project is a glimpse into the **future of intelligent transportation and sm
 
 Explore more in-depth documentation in the following sections:
 
-- [Motivation](docs/Motivation.md)
+- [Motivation](docs/01_Motivation.md)
 - **Technical Approach** 
-    - [IoT](docs/Technical_Approach_IoT.md)
-    - [RL](docs/Technical_Approach_RL.md)
-    - [NLP](docs/Technical_Approach_NLP.md)
-    - [CV](docs/Technical_Approach_CV.md)
+    - [IoT](docs/02_Technical_Approach_IoT.md)
+    - [RL](docs/03_Technical_Approach_RL.md)
+    - [NLP](docs/04_Technical_Approach_NLP.md)
+    - [CV](docs/05_Technical_Approach_CV.md)
 - **Implementation Details** 
-    - [IoT](docs/Implementation_Details_IoT.md)
-    - [RL](docs/Implementation_Details_RL.md)
-    - [NLP](docs/Implementation_Details_NLP.md)
-    - [CV](docs/Implementation_Details_CV.md)
-- [Results](docs/Results.md)  
-- [Overall Project Discussion](docs/Overall_Project_Discussion.md)
+    - [IoT](docs/06_Implementation_Details_IoT.md)
+    - [RL](docs/07_Implementation_Details_RL.md)
+    - [NLP](docs/08_Implementation_Details_NLP.md)
+    - [CV](docs/09_Implementation_Details_CV.md)
+- [Results](docs/10_Results.md)  
+- [Overall Project Discussion](docs/11_Overall_Project_Discussion.md)
 
 > These markdown files can be found in the `docs/` directory of the repository.
 
