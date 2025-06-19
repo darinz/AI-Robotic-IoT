@@ -9,7 +9,7 @@ Welcome to **AI, Robotic, and IoT** project, a cutting-edge project at the inter
 ## Demo
 
 Check out the demo of KITT in action:  
-[Watch the Video](https://drive.google.com/file/d/1rATSSZvnDogiOvBWRt0s2AyBcIq1AoWE/view?usp=sharing)
+[Watch the Video on YouTube](https://youtu.be/btqBe0lDBhk)
 
 ## Vision
 
