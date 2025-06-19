@@ -57,6 +57,18 @@ Explore more in-depth documentation in the following sections:
 
 > These markdown files can be found in the `docs/` directory of the repository.
 
+## Code
+
+All project code is organized in the `code/` directory:
+
+- `IoT/` – Code, scripts, images and configurations for remote IoT device control and integration
+- `RL/` – Reinforcement Learning models, training environments, and driving policies
+- `NLP-CV/` – Combined Natural Language Processing and Computer Vision modules for voice interaction and visual perception
+
+See the [code/README.md](code/README.md) for details on structure, usage, and module-specific instructions.
+
+> *Note: This repository is under active development. We will continue to add code and documentation as it becomes available.*
+
 ## Contributing
 
 We welcome contributions! Whether it's improving existing modules or adding new ones, feel free to fork the repo and create a pull request.
