@@ -1,5 +1,7 @@
 # AI, Robotic, and IoT Project
 
+![KITT](./img/KITT.png)
+
 **KITT** – An Intelligent, Autonomous, and Conversational Robot Car (Inspired by Knight Rider)
 
 > *“One person can make a difference.” – Knight Rider*
