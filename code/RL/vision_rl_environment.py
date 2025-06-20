@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
 """
-Vision-Enhanced Reinforcement Learning Environment for PiCar
+Vision-Enhanced Reinforcement Learning Environment for KITT
 
 This module provides a reinforcement learning environment that integrates
 computer vision capabilities with the existing RL system for advanced
 autonomous driving and navigation.
 
-Author: AI Assistant
-License: MIT
 """
 
 import numpy as np

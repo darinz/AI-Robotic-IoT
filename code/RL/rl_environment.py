@@ -16,7 +16,7 @@ class Action(Enum):
 
 class CarEnvironment:
     """
-    Reinforcement Learning Environment for PicarX autonomous car
+    Reinforcement Learning Environment for KITT autonomous car
     Provides a gym-like interface for RL training
     """
     
