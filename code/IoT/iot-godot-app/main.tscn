@@ -1,0 +1,236 @@
+[gd_scene load_steps=15 format=3 uid="uid://pemj210mdwh5"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_oc3tw"]
+[ext_resource type="Texture2D" uid="uid://jbdbqfnybnix" path="res://bulb.png" id="2_4g2iv"]
+[ext_resource type="Texture2D" uid="uid://dyq2rxye6ancw" path="res://power_off.png" id="3_x1eob"]
+[ext_resource type="Texture2D" uid="uid://cuhc2vfo0jm5d" path="res://power_on.png" id="4_3l62x"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_xp42j"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_eiqm3"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_4txu6"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_51g5h"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_w14u3"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_7nirm"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ljyad"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_7hxaf"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_sc3ok"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_vhp24"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_oc3tw")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 1080.0
+offset_bottom = 1920.0
+color = Color(0.91664, 0.91664, 0.91664, 1)
+
+[node name="Title" type="Label" parent="."]
+offset_left = 26.0
+offset_top = 27.0
+offset_right = 1054.0
+offset_bottom = 286.0
+theme_override_constants/outline_size = 17
+theme_override_font_sizes/font_size = 100
+text = "Home IoT
+Workbench"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+offset_left = 94.0
+offset_top = 361.0
+offset_right = 996.0
+offset_bottom = 519.0
+
+[node name="Section" type="Label" parent="."]
+offset_left = 204.0
+offset_top = 382.0
+offset_right = 854.0
+offset_bottom = 491.0
+theme_override_colors/font_color = Color(0, 9.62615e-07, 0.768501, 1)
+theme_override_font_sizes/font_size = 60
+text = "Connected Devices"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ColorRect3" type="ColorRect" parent="."]
+offset_left = 99.0
+offset_top = 536.0
+offset_right = 998.0
+offset_bottom = 1695.0
+
+[node name="Device1" type="Node2D" parent="."]
+position = Vector2(125, 563)
+
+[node name="ColorRect" type="ColorRect" parent="Device1"]
+offset_right = 849.0
+offset_bottom = 258.0
+color = Color(0.837382, 0.997623, 0.906297, 1)
+
+[node name="Label" type="Label" parent="Device1"]
+offset_left = 24.0
+offset_right = 445.0
+offset_bottom = 63.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 40
+text = "Device: Bedroom Light 1"
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="Device1"]
+offset_left = 12.0
+offset_top = 29.0
+offset_right = 214.0
+offset_bottom = 249.0
+texture = ExtResource("2_4g2iv")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="ColorRect2" type="ColorRect" parent="Device1"]
+offset_left = 237.0
+offset_top = 111.0
+offset_right = 582.0
+offset_bottom = 193.0
+color = Color(2.07444e-05, 0.864843, 0.056563, 1)
+
+[node name="Label2" type="Label" parent="Device1"]
+offset_left = 249.0
+offset_top = 113.0
+offset_right = 569.0
+offset_bottom = 190.0
+theme_override_font_sizes/font_size = 50
+text = "Connected"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LightOff" type="TextureRect" parent="Device1"]
+visible = false
+offset_left = 642.0
+offset_top = 56.0
+offset_right = 804.0
+offset_bottom = 197.0
+texture = ExtResource("3_x1eob")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="LightOn" type="TextureRect" parent="Device1"]
+offset_left = 642.0
+offset_top = 56.0
+offset_right = 804.0
+offset_bottom = 197.0
+texture = ExtResource("4_3l62x")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Button" type="Button" parent="Device1"]
+offset_left = 618.0
+offset_top = 14.0
+offset_right = 829.0
+offset_bottom = 229.0
+theme_override_styles/focus = SubResource("StyleBoxEmpty_xp42j")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_eiqm3")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_4txu6")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_51g5h")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_w14u3")
+
+[node name="Device2" type="Node2D" parent="."]
+position = Vector2(125, 835)
+
+[node name="ColorRect" type="ColorRect" parent="Device2"]
+offset_right = 849.0
+offset_bottom = 258.0
+color = Color(0.837382, 0.997623, 0.906297, 1)
+
+[node name="Label" type="Label" parent="Device2"]
+offset_left = 24.0
+offset_right = 445.0
+offset_bottom = 63.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 40
+text = "Device: Bedroom Light 2"
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="Device2"]
+offset_left = 12.0
+offset_top = 29.0
+offset_right = 214.0
+offset_bottom = 249.0
+texture = ExtResource("2_4g2iv")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="ColorRect2" type="ColorRect" parent="Device2"]
+offset_left = 237.0
+offset_top = 111.0
+offset_right = 582.0
+offset_bottom = 193.0
+color = Color(2.07444e-05, 0.864843, 0.056563, 1)
+
+[node name="Label2" type="Label" parent="Device2"]
+offset_left = 249.0
+offset_top = 113.0
+offset_right = 569.0
+offset_bottom = 190.0
+theme_override_font_sizes/font_size = 50
+text = "Connected"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LightOff" type="TextureRect" parent="Device2"]
+visible = false
+offset_left = 642.0
+offset_top = 56.0
+offset_right = 804.0
+offset_bottom = 197.0
+texture = ExtResource("3_x1eob")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="LightOn" type="TextureRect" parent="Device2"]
+offset_left = 642.0
+offset_top = 56.0
+offset_right = 804.0
+offset_bottom = 197.0
+texture = ExtResource("4_3l62x")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Button" type="Button" parent="Device2"]
+offset_left = 618.0
+offset_top = 14.0
+offset_right = 829.0
+offset_bottom = 229.0
+theme_override_styles/focus = SubResource("StyleBoxEmpty_7nirm")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_ljyad")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_7hxaf")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_sc3ok")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_vhp24")
+
+[node name="ColorRect4" type="ColorRect" parent="."]
+visible = false
+offset_left = 224.0
+offset_top = 1708.0
+offset_right = 798.0
+offset_bottom = 1903.0
+color = Color(0.353438, 0.353438, 0.353438, 1)
+
+[node name="Button" type="Button" parent="."]
+offset_left = 228.0
+offset_top = 1712.0
+offset_right = 794.0
+offset_bottom = 1900.0
+theme_override_font_sizes/font_size = 60
+text = "Establish
+Connection"
+
+[connection signal="pressed" from="Device1/Button" to="." method="_on_light_btn1_pressed"]
+[connection signal="pressed" from="Device2/Button" to="." method="_on_light_btn2_pressed"]
+[connection signal="pressed" from="Button" to="." method="_ready"]
