@@ -1,0 +1,29 @@
+# IoT Smart Home Clap Detection System - Python Dependencies
+# ===========================================================
+#
+# This file lists all Python packages required for the clap detection system.
+# Install using: pip3 install -r requirements.txt
+#
+# Note: RPi.GPIO is only available on Raspberry Pi systems.
+#       Other packages work on any Python 3.7+ system.
+
+# MQTT Communication
+paho-mqtt>=1.6.1          # MQTT client library for Python
+
+# GPIO Control (Raspberry Pi only)
+RPi.GPIO>=0.7.1           # GPIO library for Raspberry Pi
+
+# Standard Library Dependencies (included with Python 3.7+)
+# - threading: Thread management
+# - time: Time utilities
+# - json: JSON encoding/decoding
+# - logging: Logging framework
+# - dataclasses: Data class definitions
+# - typing: Type hints
+
+# Optional Development Dependencies
+# Uncomment these for development/testing:
+# pytest>=7.0.0           # Testing framework
+# black>=22.0.0           # Code formatting
+# flake8>=4.0.0           # Code linting
+# mypy>=0.950             # Type checking 
