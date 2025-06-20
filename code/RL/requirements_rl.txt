@@ -1,0 +1,12 @@
+# Reinforcement Learning Dependencies
+numpy>=1.21.0
+torch>=1.9.0
+matplotlib>=3.3.0
+picarx>=1.0.0
+robot_hat>=1.0.0
+
+# Optional dependencies for enhanced functionality
+# tensorboard>=2.7.0  # For training visualization
+# gym>=0.21.0        # For additional environment compatibility
+# pandas>=1.3.0      # For data analysis
+# seaborn>=0.11.0    # For enhanced plotting 
