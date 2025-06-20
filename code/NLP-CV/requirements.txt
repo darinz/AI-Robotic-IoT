@@ -1,0 +1,29 @@
+# Core OpenAI dependencies
+openai>=1.0.0
+openai-whisper>=20231117
+
+# Speech recognition and audio processing
+SpeechRecognition>=3.10.0
+PyAudio>=0.2.11
+sox>=1.4.1
+pyttsx3>=2.90
+
+# Computer vision
+opencv-python>=4.8.0
+vilib>=1.0.0
+
+# Hardware control (Picar-X specific)
+picarx>=1.0.0
+robot-hat>=1.0.0
+
+# Configuration management
+python-dotenv>=1.0.0
+
+# Utility libraries
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# Development dependencies (optional)
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0 
