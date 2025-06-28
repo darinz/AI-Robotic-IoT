@@ -1,5 +1,19 @@
 # Documentation Index
 
+<div align="center">
+
+![Documentation](https://img.shields.io/badge/Documentation-Complete-success.svg)
+![Markdown](https://img.shields.io/badge/Markdown-Formatted-blue.svg)
+![Structure](https://img.shields.io/badge/Structure-Organized-orange.svg)
+![Coverage](https://img.shields.io/badge/Coverage-All%20Modules-green.svg)
+![Status](https://img.shields.io/badge/Status-Up%20to%20Date-brightgreen.svg)
+
+**Comprehensive technical documentation for the AI-Robotic-IoT project**
+
+[Overview](#documentation-index) • [Structure](#document-structure) • [Usage](#how-to-use)
+
+</div>
+
 Welcome to the documentation hub for the **AI-Robotic-IoT** project — an intelligent, autonomous, and conversational robotic car inspired by KITT from *Knight Rider*. This folder contains detailed technical documentation and project insights across all modules: IoT, Reinforcement Learning (RL), Natural Language Processing (NLP), and Computer Vision (CV).
 
 ## Document Structure
@@ -8,7 +22,7 @@ Welcome to the documentation hub for the **AI-Robotic-IoT** project — an intel
 |------|-------------|
 | [01_Motivation.md](01_Motivation.md) | Outlines the inspiration, goals, and societal relevance of the project, including safety, smart living, and the convergence of AI, robotics, and IoT. |
 | [02_Technical_Approach_IoT.md](02_Technical_Approach_IoT.md) | Explains the architectural design and integration strategy for smart home IoT control via the robotic car. |
-| [03_Technical_Approach_RL.md](03_Technical_Approach_RL.md) | Describes how reinforcement learning is applied to develop the car’s autonomous driving capabilities. |
+| [03_Technical_Approach_RL.md](03_Technical_Approach_RL.md) | Describes how reinforcement learning is applied to develop the car's autonomous driving capabilities. |
 | [04_Technical_Approach_NLP.md](04_Technical_Approach_NLP.md) | Details the use of voice command interpretation and natural language processing for interactive control. |
 | [05_Technical_Approach_CV.md](05_Technical_Approach_CV.md) | Covers the computer vision techniques used for environmental perception and object recognition. |
 | [06_Implementation_Details_IoT.md](06_Implementation_Details_IoT.md) | Provides practical setup steps, code architecture, and hardware/software requirements for the IoT module. |
