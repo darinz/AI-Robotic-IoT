@@ -1,5 +1,22 @@
 # Reinforcement Learning Implementation for Autonomous Car
 
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![PyTorch](https://img.shields.io/badge/PyTorch-1.9+-orange.svg)
+![RL](https://img.shields.io/badge/Reinforcement%20Learning-Q%20Learning%20%7C%20DQN-red.svg)
+![Hardware](https://img.shields.io/badge/Hardware-Picar--X-green.svg)
+![Vision](https://img.shields.io/badge/Computer%20Vision-OpenCV-purple.svg)
+![Safety](https://img.shields.io/badge/Safety-Features-yellow.svg)
+![Status](https://img.shields.io/badge/Status-Stable-success.svg)
+![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)
+
+**A complete reinforcement learning implementation for autonomous car navigation, featuring both Q-Learning and Deep Q-Network (DQN) algorithms**
+
+[Overview](#overview) • [Quick Start](#quick-start) • [Architecture](#file-structure) • [Training](#training-parameters) • [Testing](#test-trained-policy)
+
+</div>
+
 This directory contains a complete reinforcement learning implementation for the KITT autonomous car, featuring both Q-Learning and Deep Q-Network (DQN) algorithms, plus a vision-enhanced environment for advanced autonomous driving.
 
 ## Overview
