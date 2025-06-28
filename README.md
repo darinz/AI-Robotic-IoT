@@ -4,9 +4,28 @@
   <sub><b>KITT – An Intelligent, Autonomous, and Conversational Robot Car</b></sub>
 </div>
 
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o-green.svg)
+![Computer Vision](https://img.shields.io/badge/Computer%20Vision-OpenCV-orange.svg)
+![NLP](https://img.shields.io/badge/NLP-Whisper%20%7C%20TTS-purple.svg)
+![Hardware](https://img.shields.io/badge/Hardware-Picar--X-red.svg)
+![IoT](https://img.shields.io/badge/IoT-MQTT%20%7C%20Smart%20Home-cyan.svg)
+![RL](https://img.shields.io/badge/Reinforcement%20Learning-PyTorch-yellow.svg)
+![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)
+![Status](https://img.shields.io/badge/Status-Active-success.svg)
+![Platform](https://img.shields.io/badge/Platform-Raspberry%20Pi-lightgrey.svg)
+
+**A comprehensive platform combining IoT, Natural Language Processing, Computer Vision, and Reinforcement Learning for intelligent robotic systems**
+
+[Overview](#ai-robotic-and-iot-project) • [Demo](#demo) • [Components](#core-modules) • [Documentation](#documentation) • [Contributing](#contributing)
+
+</div>
+
 # AI, Robotic, and IoT Project
 
-> *“One person can make a difference.” – Knight Rider*
+> *"One person can make a difference." – Knight Rider*
 
 Welcome to the **AI, Robotic, and IoT Project**—a pioneering initiative at the intersection of **Artificial Intelligence**, **Robotics**, and the **Internet of Things**. This repository unites advanced computing domains to create **KITT**, a smart, self-driving robot car capable of natural voice interaction, autonomous navigation, and IoT-based control.
 
