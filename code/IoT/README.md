@@ -1,5 +1,22 @@
 # IoT Smart Home Clap Detection System
 
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-GPIO-red.svg)
+![MQTT](https://img.shields.io/badge/MQTT-Paho%20Client-green.svg)
+![Godot](https://img.shields.io/badge/Godot-4.x-purple.svg)
+![Hardware](https://img.shields.io/badge/Hardware-Sound%20Sensor-orange.svg)
+![Protocol](https://img.shields.io/badge/Protocol-MQTT%20%7C%20TCP-cyan.svg)
+![Status](https://img.shields.io/badge/Status-Stable-success.svg)
+![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)
+
+**A sophisticated IoT project that combines clap detection with smart home automation, featuring both a Raspberry Pi backend and a Godot frontend application**
+
+[Overview](#overview) • [Architecture](#system-architecture) • [Installation](#installation--setup) • [Usage](#usage-instructions) • [Documentation](#code-documentation)
+
+</div>
+
 A sophisticated IoT project that combines clap detection with smart home automation, featuring both a Raspberry Pi backend and a Godot frontend application.
 
 ## Overview
